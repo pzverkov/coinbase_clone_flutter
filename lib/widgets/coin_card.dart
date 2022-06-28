@@ -36,7 +36,7 @@
 //             ),
 //             const Spacer(),
 //             Text(
-//               "\$" + coin.price.toString(),
+//               "\$" + coin.price.toStringAsFixed(2),
 //               style: const TextStyle(fontSize: 16),
 //             ),
 //           ],
