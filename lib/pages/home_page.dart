@@ -1,6 +1,11 @@
-import 'package:coinbase_clone/widgets/coinbase_bottom_bar.dart';
-import 'package:coinbase_clone/widgets/top_bar.dart';
 import 'package:flutter/material.dart';
+
+import '../model/coin.dart';
+import '../services/coin_repository.dart';
+import '../widgets/coin_card.dart';
+import '../widgets/coin_display.dart';
+import '../widgets/coinbase_bottom_bar.dart';
+import '../widgets/top_bar.dart';
 import '../widgets/assets_view_header.dart';
 import '../widgets/balance_header.dart';
 
@@ -24,6 +29,7 @@ class _HomePageState extends State<HomePage> {
               TopBar(),
               BalanceHeader(balance: 259.54),
               AssetsViewHeader(),
+              CoinDisplay(),
             ],
           ),
         ),

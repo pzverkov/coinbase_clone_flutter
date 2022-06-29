@@ -14,12 +14,6 @@ class _CoinbaseBottomBarState extends State<CoinbaseBottomBar> {
   int _selectedIndex = 1;
 
   @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return BottomAppBar(
       color: Colors.white,

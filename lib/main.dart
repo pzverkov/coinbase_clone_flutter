@@ -1,4 +1,7 @@
-import 'package:coinbase_clone/pages/home_page.dart';
+import 'package:coinbase_clone/blocs/coin_price_bloc/coin_price_bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(
@@ -15,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Coinbase Clone',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: const HomePage(),
+      home: HomePage(),
     );
   }
 }
